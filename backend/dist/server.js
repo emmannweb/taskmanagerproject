@@ -65,8 +65,8 @@ app.use("/api", authRoutes);
 app.use("/api", userRoutes);
 __dirname = path_1.default.resolve();
 if (process.env.NODE_ENV === "production") {
-    app.use(express_1.default.static(path_1.default.join(__dirname, "/backend/frontend/build")));
-    app.get("*", (req, res) => res.sendFile(path_1.default.resolve(__dirname, "backend", "frontend", "build", "index.html")));
+    app.use(express_1.default.static(path_1.default.join(__dirname, "/frontend/build")));
+    app.get("*", (req, res) => res.sendFile(path_1.default.resolve(__dirname, "frontend", "build", "index.html")));
 }
 else {
     app.get("/", (req, res) => {
