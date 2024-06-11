@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node-dev --poll src/server.ts",
     "build": "tsc",
-    "build-dev": "cp .env ./dist/.env && node ./dist/server.js"
+    "build-dev": "node ./dist/server.js"
   },
   "keywords": [],
   "author": "",
