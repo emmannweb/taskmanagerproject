@@ -1,5 +1,5 @@
 # Tasks management App
-This is a Full stack App made with MERN Stack (Mongodb, ExpressJs, Nodejs and Typescript, Reactjs), MUI, Datagrid, cookie, etc. foget email reset email, etc.
+This is a Full stack App made with MERN Stack (Mongodb, ExpressJs, Nodejs and Typescript, Reactjs), MUI, Datagrid, cookie, etc. forget email reset email, etc.
 
 
 ![My Image](frontend/src/images/homepage.png)
